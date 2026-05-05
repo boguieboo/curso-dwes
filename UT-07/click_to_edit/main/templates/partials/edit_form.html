@@ -14,6 +14,9 @@
     <label>Email Address</label>
     <input type="email" name="email" value="{{ user.email }}">
   </div>
+  <div class="form-group">
+    <label>Phone Number</label>
+    <input type="text" name="numero_telefono" value="{{ user.numero_telefono }}">
   <button class="btn" type="submit">Submit</button>
   <button class="btn" hx-get="{% url 'display_name' %}">Cancel</button>
 </form>
