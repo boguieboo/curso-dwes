@@ -3,6 +3,7 @@ class MockUser:
         self.first = "Juan"
         self.last = "Pérez"
         self.email = "juan@example.com"
+        self.numero_telefono = "600123456"
 
 db = MockUser()
 
