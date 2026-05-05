@@ -12,8 +12,9 @@ def get_user():
     return db
 
 
-def update_user(first, last, email):
+def update_user(first, last, email, numero_telefono):
     db.first = first
     db.last = last
     db.email = email
+    db.numero_telefono = numero_telefono
     return db
